@@ -5,5 +5,5 @@
 
 echo 'Getting the YOLOv3 model'
 echo 'Starting Download...'
-Invoke-WebRequest -Uri "https://pjreddie.com/media/files/yolov3.weights" -OutFile yolo/yolov3.weights
+Invoke-WebRequest -Uri "https://pjreddie.com/media/files/yolov3.weights" 
 echo 'Download completed successfully!!'
