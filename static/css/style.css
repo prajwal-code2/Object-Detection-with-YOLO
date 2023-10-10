@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60479868292a5d29e69ac6b9/d2f479f8-2005-43ae-bb36-e90333fa8f19/Future_of_Artificial_Intelligence.gif);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero span{
+    height: 100%;
+    font-size: 3vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content{
+    text-align:center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.content form{
+    margin-top: 20px;
+}
+
+
