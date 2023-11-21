@@ -59,7 +59,10 @@ def detect_objects(image):
             confi=str(round(confidences[i],2))
             color = colors[class_ids[i]]
             cv2.rectangle(img, (x, y), (x + w, y + h), (0,0,255), 2)
-            cv2.putText(img, label, (x, y+h+20), font, 1, (0,0,0), 2)
+            if i%2==0:
+                cv2.putText(img, label, (x+5, y+20), font, 1, (0,0,0), 2)
+            else:
+                cv2.putText(img, label, (x,y+h+20), font, 1, (0,0,0), 2)
             cv2.putText(img, confi, (x, y), font, 0.5, (0,0,0), 2)
 
     ret, jpeg = cv2.imencode('.jpg', img)
