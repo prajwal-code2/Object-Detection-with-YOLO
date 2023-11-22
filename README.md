@@ -26,17 +26,18 @@ objects present in the image in real-time.
 <br>
 
 ##     <p align = "left"> Installation and Usage 🛠️ </p>
-1. Clone this repository to your local machine.
-2. Download the weight for YOLOv3 with link given in yolo_weights.txt
-3. Position your computer in front of the couch. It's preferable if the computer's camera is parallel to the couch.
-4. Set up a Telegram bot
-Update the telegram_key and chat_id variables in the code with your bot's API key and your chat ID.
-5. Run the script 'python detector.py'
-6. The tool will then use your computer's camera to monitor the couch.
-7. The tool has been programmed to specifically detect dogs, cats, sofas, and beds while ignoring other objects.
+1. Clone this repository to your local machine .
+2. Download the weight for YOLOv3 with link given in get_weights.txt .
+3. Run the script 'app.py'
+4. Open the program in web browser by pressing 'CTRL + left click' on the link.
+5. After brower gets open, choose the image on which you want to perform object detection.
+6. Then press on upload.
+7. You can also check the demo video given below.
 
 <br>
+##     <p align = "left"> DEMO Video </p>
 
+<br>
 ##     <p align = "left"> Acknowledgements </p>
 I'd like to express my gratitude to the creators of the YOLOv3 model, as their work served as the foundation for this project.
 
