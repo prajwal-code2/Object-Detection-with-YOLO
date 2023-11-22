@@ -26,4 +26,4 @@ def upload_file():
 if __name__ == '__main__':
 
     # Command to run flask app
-    app.run(host='192.168.1.12',debug=True)
+    app.run(debug=True)
