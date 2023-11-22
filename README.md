@@ -37,6 +37,10 @@ objects present in the image in real-time.
 <br>
 ##     <p align = "left"> DEMO Video </p>
 
+
+https://github.com/prajwal-code2/Object-Detection-with-YOLO/assets/74657725/4ad26d36-a9db-4316-bb31-0841513cc710
+
+
 <br>
 ##     <p align = "left"> Acknowledgements </p>
 I'd like to express my gratitude to the creators of the YOLOv3 model, as their work served as the foundation for this project.
