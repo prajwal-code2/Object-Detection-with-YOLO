@@ -27,7 +27,7 @@ objects present in the image in real-time.
 
 ##     <p align = "left"> Installation and Usage 🛠️ </p>
 1. Clone this repository to your local machine.
-2. 
+2. Download the weight for YOLOv3 with link given in yolo_weights.txt
 3. Position your computer in front of the couch. It's preferable if the computer's camera is parallel to the couch.
 4. Set up a Telegram bot
 Update the telegram_key and chat_id variables in the code with your bot's API key and your chat ID.
